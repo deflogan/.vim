@@ -1,0 +1,50 @@
+" =============================================================================
+" 按键映射
+" =============================================================================
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-h> <C-W>h
+map <C-l> <C-W>l
+
+" 普通模式
+nnoremap k gk
+nnoremap gk k
+nnoremap j gj
+nnoremap gj j
+nnoremap gi ^
+nnoremap ga $
+nnoremap H 10k
+nnoremap L 10j
+nnoremap go o<Esc>
+nnoremap gO O<Esc>
+" 设置快捷键将系统剪贴板内容粘贴至 vim
+nmap <Leader>p "+p
+" 定义快捷键关闭当前分割窗口
+nmap <Leader>q :q<CR>
+" 定义快捷键保存当前窗口内容
+nmap <Leader>w :w<CR>
+" 取消搜索的高亮
+noremap <silent><leader>/ :nohls<CR>
+nnoremap <F2> :set nu! nu?<CR>
+nnoremap <F3> :set list! list?<CR>
+nnoremap <F4> :set wrap! wrap?<CR>
+nnoremap <F6> :exec exists('syntax_on') ? 'syn off' : 'syn on'<CR>
+
+" 插入模式
+inoremap jj <Esc>
+inoremap ( ()<LEFT>
+inoremap [ []<LEFT>
+inoremap { {}<LEFT>
+
+" 可视模式
+vnoremap < <gv
+vnoremap > >gv
+vnoremap gi ^
+vnoremap ga $
+" 设置快捷键将选中文本块复制至系统剪贴板
+vnoremap <Leader>y "+y
+
+" 命令模式
+cnoremap <C-a> <Home>
+cnoremap <C-e> <End>
+cmap w!! w !sudo tee >/dev/null %

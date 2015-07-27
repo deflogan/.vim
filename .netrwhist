@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/songxin/baidu-map/pc/phpLittle/sms/0727垃圾短信-sms-phpLittle-pc/actions/send_sms'
+let g:netrw_dirhist_2='/Users/songxin/baidu-map/pc/phpLittle/sms/0727垃圾短信-sms-phpLittle-pc/actions'
+let g:netrw_dirhist_3='/Users/songxin/baidu-map/pc/phpui/0727增加bduss-phpui-pc/webmap/common'
+let g:netrw_dirhist_4='/Users/songxin/baidu-map/pc/phpui/0727增加bduss-phpui-pc/webmap/actions'
+let g:netrw_dirhist_5='/Users/songxin/baidu-map/pc/phpui/0727增加bduss-phpui-pc/webmap/webroot'
+let g:netrw_dirhist_6='/Users/songxin/baidu-map/pc/phpui/0727增加bduss-phpui-pc/webmap/config'
